@@ -1,4 +1,4 @@
-package in.lakum.spring.basics;
+package in.lakum.spring;
 
 import java.util.Arrays;
 import org.springframework.boot.CommandLineRunner;
@@ -13,7 +13,10 @@ import org.springframework.context.annotation.Bean;
  * SpringBootApplication implies Configuration, EnableAutoConfiguration,
  * and ComponentScan
  */
-@SpringBootApplication
+//@Configuration
+//@EnableAutoConfiguration
+//@ComponentScan
+@SpringBootApplication()
 public class SpringKataApplication {
 
     /**
