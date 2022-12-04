@@ -11,6 +11,9 @@ import java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
 
+/**
+ * Resource Controller
+ */
 @RestController
 public class QuoteController {
     private final QuoteRepository quoteRepository;

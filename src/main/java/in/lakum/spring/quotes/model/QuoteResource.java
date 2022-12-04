@@ -5,6 +5,9 @@ import lombok.Setter;
 
 import java.util.Objects;
 
+/**
+ * Representation class.
+ */
 public class QuoteResource {
 
     @Getter

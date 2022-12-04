@@ -28,6 +28,8 @@ public class GreetingController {
      * the `name` parameter of the `greeting()` method.
      * If the `name` parameter is absent in the request, the defaultValue is used.
      *
+     * Spring use the Jackson JSON library to
+     * automatically marshal instances of type Greeting into JSON.
      * Spring's MappingJackson2HttpMessageConverter is automatically chosen to
      * convert the Greeting instance to JSON.
      *
